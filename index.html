@@ -1,802 +1,710 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>MHD ANWAR 👨🏼‍💻| Portofolio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>MHD ANWAR 👨🏼‍💻| Portofolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/hero1.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/hero1.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
-    crossorigin="anonymous"></script>
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <style>
-    .hai {
-      color: rgb(52, 204, 241);
-
-    }
-  </style>
-  <script>
-    function showprestasi(x) {
-      let temp_html = '';
-      $('#gambar').empty();
-      if (x == 'p1') {
-        temp_html = `<img src="assets/img/prestasi1.png" alt="" class="rounded" width="450px" />`;
-
-      } else if (x == 'p2') {
-        temp_html = `<img src="assets/img/prestasi2.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p3') {
-        temp_html = `<img src="assets/img/prestasi3.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p4') {
-        temp_html = `<img src="assets/img/prestasi4.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p5') {
-        temp_html = `<img src="assets/img/prestasi5.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p6') {
-        temp_html = `<img src="assets/img/prestasi6.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p7') {
-        temp_html = `<img src="assets/img/prestasi7.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p8') {
-        temp_html = `<img src="assets/img/prestasi8.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p9') {
-        temp_html = `<img src="assets/img/prestasi9.png" alt="" class="rounded" width="450px" />`;
-      } else if (x == 'p10') {
-        temp_html = `<img src="assets/img/prestasi10.png" alt="" class="rounded" width="450px" />`;
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <style>
+      .hai {
+        color: rgb(52, 204, 241);
       }
-      $('#gambar').append(temp_html);
-    }
+    </style>
+    <script>
+      function showprestasi(x) {
+        let temp_html = '';
+        $('#gambar').empty();
+        if (x == 'p1') {
+          temp_html = `<img src="assets/img/prestasi1.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p2') {
+          temp_html = `<img src="assets/img/prestasi2.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p3') {
+          temp_html = `<img src="assets/img/prestasi3.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p4') {
+          temp_html = `<img src="assets/img/prestasi4.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p5') {
+          temp_html = `<img src="assets/img/prestasi5.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p6') {
+          temp_html = `<img src="assets/img/prestasi6.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p7') {
+          temp_html = `<img src="assets/img/prestasi7.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p8') {
+          temp_html = `<img src="assets/img/prestasi8.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p9') {
+          temp_html = `<img src="assets/img/prestasi9.png" alt="" class="rounded" width="450px" />`;
+        } else if (x == 'p10') {
+          temp_html = `<img src="assets/img/prestasi10.png" alt="" class="rounded" width="450px" />`;
+        }
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi1() {
+      function prestasi1() {}
 
-    }
+      function prestasi2() {
+        $('#gambar').empty();
 
-    function prestasi2() {
-      $('#gambar').empty();
+        $('#gambar').append(temp_html);
+      }
 
-      $('#gambar').append(temp_html);
-    }
+      function prestasi3() {
+        $('#gambar').empty();
+        console.log('Prestasi');
+        let temp_html = `<img src="assets/img/prestasi3.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi3() {
-      $('#gambar').empty();
-      console.log('Prestasi');
-      let temp_html = `<img src="assets/img/prestasi3.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
+      function prestasi4() {
+        $('#gambar').empty();
+        let temp_html = `<img src="assets/img/prestasi4.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi4() {
-      $('#gambar').empty();
-      let temp_html = `<img src="assets/img/prestasi4.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
+      function prestasi5() {
+        $('#gambar').empty();
+        let temp_html = `<img src="assets/img/prestasi5.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi5() {
-      $('#gambar').empty();
-      let temp_html = `<img src="assets/img/prestasi5.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
+      function prestasi6() {
+        $('#gambar').empty();
+        let temp_html = `<img src="assets/img/prestasi6.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi6() {
-      $('#gambar').empty();
-      let temp_html = `<img src="assets/img/prestasi6.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
+      function prestasi7() {
+        $('#gambar').empty();
+        let temp_html = `<img src="assets/img/prestasi7.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi7() {
-      $('#gambar').empty();
-      let temp_html = `<img src="assets/img/prestasi7.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
+      function prestasi8() {
+        $('#gambar').empty();
+        let temp_html = `<img src="assets/img/prestasi8.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi8() {
-      $('#gambar').empty();
-      let temp_html = `<img src="assets/img/prestasi8.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
+      function prestasi9() {
+        $('#gambar').empty();
+        let temp_html = `<img src="assets/img/prestasi9.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
 
-    function prestasi9() {
-      $('#gambar').empty();
-      let temp_html = `<img src="assets/img/prestasi9.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
+      function prestasi10() {
+        $('#gambar').empty();
+        let temp_html = `<img src="assets/img/prestasi10.png" alt="" class="rounded" width="450px" />`;
+        $('#gambar').append(temp_html);
+      }
+    </script>
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-    function prestasi10() {
-      $('#gambar').empty();
-      let temp_html = `<img src="assets/img/prestasi10.png" alt="" class="rounded" width="450px" />`;
-      $('#gambar').append(temp_html);
-    }
-  </script>
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Vesperr - v4.10.0
   * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <img style="height: 50px" src="assets/img/clients/lx.png" alt="" />
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+          <p>sdfsdfs</p>
 
-      <div class="logo">
-
-        <img style="height: 50px;" src="assets/img/clients/lx.png" alt="">
-
-
-
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About Me</a></li>
-          <li><a class="nav-link scrollto" href="#services">achievement</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portofolio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <div class="hai">
-            <h3>hallo👋 nama ku</h3>
-          </div>
-          <h1 data-aos="fade-up">MHD ANWAR</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Mentor LearningX and Software Development</h2>
-          <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#contact" class="btn-get-started scrollto">Hubungi Saya</a>
-          </div>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero1.png" class="img-fluid animated" alt="">
-        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About Me</a></li>
+            <li><a class="nav-link scrollto" href="#services">achievement</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Portofolio</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </div>
+    </header>
+    <!-- End Header -->
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients clients">
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
       <div class="container">
-
         <div class="row">
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/lx.png" class="img-fluid" alt="" data-aos="zoom-in">
+          <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <div class="hai">
+              <h3>hallo👋 nama ku</h3>
+            </div>
+            <h1 data-aos="fade-up">MHD ANWAR</h1>
+            <h2 data-aos="fade-up" data-aos-delay="400">Mentor LearningX and Software Development</h2>
+            <div data-aos="fade-up" data-aos-delay="800">
+              <a href="#contact" class="btn-get-started scrollto">Hubungi Saya</a>
+            </div>
           </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+            <img src="assets/img/hero1.png" class="img-fluid animated" alt="" />
           </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/rohil.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
-          </div>
-
         </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>About Me</h2>
-        </div>
-
-        <div class="row content text-center">
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
-            <p>
-              My organizational and
-              teaching
-              experience has enabled me to develop my skills and competencies well, analytically and my ability to work
-              under pressure.
-              I can work well in teaching and working with a team.
-            </p>
-
-          </div>
-
-
-
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-
-    <section id="formal_education" class="about">
-      <div class="section-title" data-aos="fade-up">
-        <h2>Formal Education</h2>
-      </div>
-      <div class="row content text-center">
-        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
-
-
-        </div>
-
       </div>
     </section>
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
+    <!-- End Hero -->
 
-        <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start"
-            data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
+    <main id="main">
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients clients">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="assets/img/clients/lx.png" class="img-fluid" alt="" data-aos="zoom-in" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="assets/img/clients/rohil.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400" />
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Clients Section -->
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>About Me</h2>
           </div>
 
-          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-            <div class="content d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <img src="assets/img/university.png" alt="" class="img-fluid">
-                    <strong>SDN 001 Bangko Kanan</strong>
+          <div class="row content text-center">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
+              <p>My organizational and teaching experience has enabled me to develop my skills and competencies well, analytically and my ability to work under pressure. I can work well in teaching and working with a team.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <section id="formal_education" class="about">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Formal Education</h2>
+        </div>
+        <div class="row content text-center">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150"></div>
+        </div>
+      </section>
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container">
+          <div class="row">
+            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+              <img src="assets/img/counts-img.svg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+              <div class="content d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <img src="assets/img/university.png" alt="" class="img-fluid" />
+                      <strong>SDN 001 Bangko Kanan</strong>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <img src="assets/img/university.png" alt="" class="img-fluid" />
+                      <strong>SMPN 1 Bangko Pusako</strong>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <img src="assets/img/university.png" alt="" class="img-fluid" />
+                      <strong>SMAN 2 Bangko Pusako</strong>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <img src="assets/img/university.png" alt="" class="img-fluid" />
+                      <strong>Politeknik Caltex Riau</strong>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
 
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <img src="assets/img/university.png" alt="" class="img-fluid">
-                    <strong>SMPN 1 Bangko Pusako</strong>
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>achievement</h2>
+            <p>there are a number of achievements that I've got including the following:</p>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= More Services Section ======= -->
+      <section id="more-services" class="more-services">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch">
+              <div class="card" style="background-image: url('assets/img/prestasi1.png')" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p1')" class="card-title"><a href="" id="p2" value="th" data-bs-toggle="modal" data-bs-target="#exampleModal">Juara 2 Keamanan Siber KMIPN(Nasional)</a></h5>
+                  <p class="card-text">
+                    keamanan siber merupakan praktik perlindungan terhadap aset digital pada saat transmisi, pemprosesan, serta penyimpanan baik yang ada pada sistem, jaringan maupun layanan yang disediakan, dari akses yang tidak dikenal
+                    ataupun ancaman yang ada. pada lomba ini menguji kemampuan peserta dalam melindungi aset digital yang ada.baik pada sistem jaringan maupun layanan yang tersedia pada jaringan.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="card" style="background-image: url('assets/img/prestasi2.png')" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p2')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Semifinal BPJS Hackethon 2022</a></h5>
+                  <p class="card-text">
+                    keamanan siber merupakan praktik perlindungan terhadap aset digital pada saat transmisi, pemprosesan, serta penyimpanan baik yang ada pada sistem, jaringan maupun layanan yang disediakan, dari akses yang tidak dikenal
+                    ataupun ancaman yang ada. pada lomba ini menguji kemampuan peserta dalam melindungi aset digital yang ada.baik pada sistem jaringan maupun layanan yang tersedia pada jaringan.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi3.png')" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p3')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Cybersecurity Essential</a></h5>
+                  <p class="card-text">
+                    Training Cybersecurity Essentials merupakan training yang bertujuan untuk mengembangkan peserta training pada pemahaman dasar tentang cybersecurity dan bagaimana hubungannya dengan informasi dan keamanan jaringan
+                    komputer. Training ini memperkenalkan peserta training pada sifat dan karakteristik kejahatan dunia maya.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi4.png')" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p4')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Mahasiswa Berprestasi T.A 2021/2022 </a></h5>
+                  <p class="card-text">setiap tahun nya di Politeknik Caltex Riau ada memberikan penghargaan kepada mahasiswa yang berprestasi baik dalam hal akademik ataupun non akademik</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi5.png')" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p5')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Sertifikasi MTCNA</a></h5>
+                  <p class="card-text">
+                    MikroTik Certified Network Associate (MTCNA) adalah sebuah program sertifikasi dari MikroTik untuk teknisi (Network Engineer) pada tingkatan entry-level. Sertifikasi ini membantu Network Engineer untuk memahami dasar
+                    networking. MTCNA diperuntukkan bagi Network Specialist, Network Administrator, dan Network Support Engineer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi6.png')" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p6')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Pelatihan Cybersecurity Tehnician</a></h5>
+                  <p class="card-text">Pelatihan ini mengajarkan Anda cara melakukan tes penetrasi yang efektif dalam lingkungan jaringan perusahaan yang harus diserang, dieksploitasi.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi7.png')" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p7')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Pelatihan CCNA</a></h5>
+                  <p class="card-text">
+                    Pelatihan CCNA Network Engineer mempelajari teori dan praktik manajemen jaringan lokal, dimulai dari konektivitas lokal, seperti penghitungan dan penggunaan IP address, model, routing protocols, hingga konektivitas pada
+                    jaringan SOHO (Small Office Home Office) dan security.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi8.png')" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p8')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Penyelesaian Kursus Javascript</a></h5>
+                  <p class="card-text">pelatihan ini diselenggarakan oleh dinas Kominfo Indonesia untuk memberikan pemahaman terkait dengan bahasa pemrograman javascript bagi para pelaku dunia IT</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi9.png')" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p9')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Penyelesaian Kursus React</a></h5>
+                  <p class="card-text">pelatihan ini diselenggarakan oleh dinas Kominfo Indonesia untuk memberikan pemahaman terkait dengan React bagi para pelaku dunia IT</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="card" style="background-image: url('assets/img/prestasi10.png')" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-body">
+                  <h5 onclick="showprestasi('p10')" class="card-title"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Capture The Flag Informatics Festival 2022</a></h5>
+                  <p class="card-text">Ini adalah event perlombaan CTF yang di selenggarakan oleh university UNPAD</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End More Services Section -->
+
+      <!-- modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body" id="gambar"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- penutup modal -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Portfolio</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>App</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
+              </div>
+            </div>
 
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <img src="assets/img/university.png" alt="" class="img-fluid">
-                    <strong>SMAN 2 Bangko Pusako</strong>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Web 3</h4>
+                  <p>Web</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <img src="assets/img/university.png" alt="" class="img-fluid">
-                    <strong>Politeknik Caltex Riau</strong>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>App</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
-
-
               </div>
-            </div><!-- End .content-->
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Card 2</h4>
+                  <p>Card</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Web 2</h4>
+                  <p>Web</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>App</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Card 1</h4>
+                  <p>Card</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Card 3</h4>
+                  <p>Card</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Web 3</h4>
+                  <p>Web</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-      </div>
-    </section><!-- End Counts Section -->
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq">
+        <div class="container" style="background-color: #fff8dc">
+          <div class="section-title" data-aos="fade-up">
+            <h2>pengalaman organisasi</h2>
+          </div>
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+          <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up">
+            <div class="col-lg-6" style="background-color: #7fffd4">
+              <h4>#Struktur Organisasi</h4>
+            </div>
+            <div class="col-lg-6" style="background-color: #f0ffff">
+              <h4>#Struktur Kepanitiaan</h4>
+            </div>
+          </div>
+          <!-- End F.A.Q Item-->
+
+          <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-6" style="background-color: #7fffd4">
+              <li>OSIS Chairperson of SMAN2 Bangko Pusako (2019)</li>
+              <li>Head of ROHIS SMAN2 Bangko Pusako (2020)</li>
+              <li>Deputy Chairperson of UKMI Ar-Ruhul Jadid (2022)</li>
+              <li>Vice Chairman of PCR-ROHIL (2021)</li>
+              <li>Member of Caltex Techno Scientist Community(2022)</li>
+              <li>PCR CSIRT Member (2022)</li>
+              <li>Chairman of PCR-ROHIL (2022)</li>
+            </div>
+            <div class="col-lg-6" style="background-color: #f0ffff">
+              <li>Ketua Pelaksana Ifthar Jamai UKMI ARRUHUL JADID</li>
+              <li>Ketua Pelaksana muktamar UKMI 2021</li>
+              <li>Ketua Pelaksana Sharring Session Beasiswa</li>
+              <li>Ketua Pelaksana Tablig Akbar PCR</li>
+              <li>Penasehat Kegiatan Capacity Building Rokan Hilir</li>
+              <li>Penasehat kegiatan Futsal Pelajar Rokan Hilir</li>
+              <li>Penasehat Kegiatan Pengabdian Kepada Masyarakat Rokan Hilir</li>
+              <li>Ketua Pelaksana Tablig Akbar PCR</li>
+              <li>Koordinator divisi Acara Diklat Dasar Organisasi UKMI</li>
+              <li>Koordinator Divisi KOMINFO Webinar Kesekretariatan</li>
+              <li>Pemateri Sharring Session Beasiswa 2023</li>
+            </div>
+          </div>
+          <!-- End F.A.Q Item-->
+        </div>
+      </section>
+      <!-- End F.A.Q Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Contact Me</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="contact-about">
+                <h3>IDAMAN</h3>
+                <p>"Istiqomah Dalam Amanah"</p>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/profile.php?id=100007630215574" class="facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/anwar_jihad2731?igshid=NTE5MzUyOTU=" class="instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.youtube.com/c/AnwarJIHAD" class="youtube"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.linkedin.com/in/muhammad-anwar-5a6217216/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+              <div class="info">
+                <div>
+                  <i class="ri-map-pin-line"></i>
+                  <p>Jalan Umban Sari Rumbai No.1, Pekanbaru<br />Kode Pos: 28265</p>
+                </div>
+
+                <div>
+                  <i class="ri-mail-send-line"></i>
+                  <p>#anwar20ti@mahasiswa.pcr.ac.id <br />#mhdanware1@gmail.com</p>
+                </div>
+
+                <div>
+                  <i class="ri-phone-line"></i>
+                  <p>082361655755</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <div class="text-center">
+                  <button type="submit"><a href="https://wa.me/082361655755" style="color: #f0ffff">Hubungi</a></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
       <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>achievement</h2>
-          <p>there are a number of achievements that I've got including the following:</p>
-        </div>
-
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= More Services Section ======= -->
-    <section id="more-services" class="more-services">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card" style='background-image: url("assets/img/prestasi1.png");' data-aos="fade-up"
-              data-aos-delay="100">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p1')" class="card-title"><a href="" id='p2' value="th" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Juara 2 Keamanan Siber KMIPN(Nasional)</a></h5>
-                <p class="card-text">keamanan siber merupakan praktik perlindungan terhadap aset digital pada saat
-                  transmisi, pemprosesan, serta penyimpanan baik yang ada pada sistem, jaringan maupun layanan yang
-                  disediakan, dari akses yang tidak dikenal ataupun ancaman yang ada.
-                  pada lomba ini menguji kemampuan peserta dalam melindungi aset digital yang ada.baik pada sistem
-                  jaringan maupun layanan yang tersedia pada jaringan.</p>
-              </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-12 text-lg-left text-center">
+            <div class="copyright">&copy; Copyright <strong>-Mhd Anwar</strong>. All Rights Reserved 2023</div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
             </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="card" style='background-image: url("assets/img/prestasi2.png");' data-aos="fade-up"
-              data-aos-delay="100">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p2')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Semifinal BPJS Hackethon 2022</a></h5>
-                <p class="card-text">keamanan siber merupakan praktik perlindungan terhadap aset digital pada saat
-                  transmisi, pemprosesan, serta penyimpanan baik yang ada pada sistem, jaringan maupun layanan yang
-                  disediakan, dari akses yang tidak dikenal ataupun ancaman yang ada.
-                  pada lomba ini menguji kemampuan peserta dalam melindungi aset digital yang ada.baik pada sistem
-                  jaringan maupun layanan yang tersedia pada jaringan.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi3.png");' data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p3')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Cybersecurity Essential</a></h5>
-                <p class="card-text">Training Cybersecurity Essentials merupakan training yang bertujuan
-                  untuk mengembangkan peserta training pada pemahaman dasar tentang cybersecurity dan bagaimana
-                  hubungannya dengan informasi dan keamanan jaringan komputer. Training ini memperkenalkan peserta
-                  training pada sifat dan karakteristik kejahatan dunia maya.</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi4.png");' data-aos="fade-up"
-              data-aos-delay="100">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p4')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Mahasiswa Berprestasi T.A 2021/2022 </a></h5>
-                <p class="card-text">setiap tahun nya di Politeknik Caltex Riau ada memberikan penghargaan kepada
-                  mahasiswa yang berprestasi baik dalam hal akademik ataupun non akademik </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi5.png");' data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p5')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Sertifikasi MTCNA</a></h5>
-                <p class="card-text">MikroTik Certified Network Associate (MTCNA) adalah sebuah program sertifikasi dari
-                  MikroTik untuk teknisi (Network Engineer) pada tingkatan entry-level.
-                  Sertifikasi ini membantu Network Engineer untuk memahami dasar networking. MTCNA diperuntukkan bagi
-                  Network Specialist, Network Administrator, dan Network Support Engineer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi6.png");' data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p6')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Pelatihan Cybersecurity Tehnician</a></h5>
-                <p class="card-text">Pelatihan ini mengajarkan Anda cara melakukan tes penetrasi yang efektif dalam
-                  lingkungan jaringan perusahaan yang harus diserang, dieksploitasi.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi7.png");' data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p7')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Pelatihan CCNA</a></h5>
-                <p class="card-text">Pelatihan CCNA Network Engineer mempelajari teori dan praktik manajemen jaringan
-                  lokal,
-                  dimulai dari konektivitas lokal, seperti penghitungan dan penggunaan IP address, model, routing
-                  protocols, hingga
-                  konektivitas pada jaringan SOHO (Small Office Home Office) dan security.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi8.png");' data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p8')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Penyelesaian Kursus Javascript</a></h5>
-                <p class="card-text">pelatihan ini diselenggarakan oleh dinas Kominfo Indonesia untuk memberikan
-                  pemahaman terkait dengan bahasa
-                  pemrograman javascript bagi para pelaku dunia IT
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi9.png");' data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p9')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Penyelesaian Kursus React</a></h5>
-                <p class="card-text">pelatihan ini diselenggarakan oleh dinas Kominfo Indonesia untuk memberikan
-                  pemahaman terkait dengan React bagi para pelaku dunia IT</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/prestasi10.png");' data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="card-body">
-                <h5 onclick="showprestasi('p10')" class="card-title"><a href="" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Capture The Flag Informatics Festival 2022</a></h5>
-                <p class="card-text">Ini adalah event perlombaan CTF yang di selenggarakan oleh university UNPAD</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section><!-- End More Services Section -->
-
-    <!-- modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-
-          <div class="modal-body" id="gambar">
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
-
           </div>
         </div>
       </div>
-    </div>
+    </footer>
+    <!-- End Footer -->
 
-    <!-- penutup modal -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-
-
-
-
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container" style="background-color:#FFF8DC">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>pengalaman organisasi </h2>
-        </div>
-
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" >
-          <div class="col-lg-6" style="background-color:	#7FFFD4">
-            <h4>#Struktur Organisasi</h4>
-          </div>
-          <div class="col-lg-6" style="background-color:#F0FFFF">
-            <h4>#Struktur Kepanitiaan</h4>
-          </div>
-        </div><!-- End F.A.Q Item-->
-
-        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-6" style="background-color:	#7FFFD4">
-            <li>OSIS Chairperson of SMAN2 Bangko Pusako (2019)</li>
-            <li>Head of ROHIS SMAN2 Bangko Pusako (2020)</li>
-            <li>Deputy Chairperson of UKMI Ar-Ruhul Jadid (2022)</li>
-            <li>Vice Chairman of PCR-ROHIL (2021)</li>
-            <li>Member of Caltex Techno Scientist Community(2022)</li>
-            <li>PCR CSIRT Member (2022)</li>
-            <li>Chairman of PCR-ROHIL (2022)</li>
-          </div>
-          <div class="col-lg-6" style="background-color:	#F0FFFF">
-            <li>Ketua Pelaksana Ifthar Jamai UKMI ARRUHUL JADID</li>
-            <li>Ketua Pelaksana muktamar UKMI 2021</li>
-            <li>Ketua Pelaksana Sharring Session Beasiswa</li>
-            <li>Ketua Pelaksana Tablig Akbar PCR</li>
-            <li>Penasehat Kegiatan Capacity Building Rokan Hilir</li>
-            <li>Penasehat kegiatan Futsal Pelajar Rokan Hilir</li>
-            <li>Penasehat Kegiatan Pengabdian Kepada Masyarakat Rokan Hilir  </li>
-            <li>Ketua Pelaksana Tablig Akbar PCR</li>
-            <li>Koordinator divisi Acara Diklat Dasar Organisasi UKMI</li>
-            <li>Koordinator Divisi KOMINFO Webinar Kesekretariatan </li>
-            <li>Pemateri Sharring Session Beasiswa 2023</li>
-          </div>
-        </div><!-- End F.A.Q Item-->
-      </div>
-    </section><!-- End F.A.Q Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Contact Me</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-about">
-              <h3>IDAMAN</h3>
-              <p>"Istiqomah Dalam Amanah"</p>
-              <div class="social-links">
-                <a href="https://www.facebook.com/profile.php?id=100007630215574" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://instagram.com/anwar_jihad2731?igshid=NTE5MzUyOTU=" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.youtube.com/c/AnwarJIHAD" class="youtube"><i class="bi bi-youtube"></i></a>               
-                <a href="https://www.linkedin.com/in/muhammad-anwar-5a6217216/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="info">
-              <div>
-                <i class="ri-map-pin-line"></i>
-                <p>Jalan Umban Sari Rumbai No.1, Pekanbaru<br>Kode Pos: 28265</p>
-              </div>
-
-              <div>
-                <i class="ri-mail-send-line"></i>
-                <p>#anwar20ti@mahasiswa.pcr.ac.id <br>#mhdanware1@gmail.com</p>
-              </div>
-
-              <div>
-                <i class="ri-phone-line"></i>
-                <p>082361655755</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              
-              <div class="text-center"><button type="submit"><a href="https://wa.me/082361655755" style="color:#F0FFFF">Hubungi</a></button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-lg-12 text-lg-left text-center">
-          <div class="copyright">
-            &copy; Copyright <strong>-Mhd Anwar</strong>. All Rights Reserved 2023
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
-          </div>
-        </div>
-       
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
